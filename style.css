@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Vermelho-cosmo: #591419;
+    --Feldgrau: #4A5951;
+    --Preto-verde: #010D00;
+    --Cineroso: #8C7974;
+    --Siena-escura: #400F0F;
+    --titulo:"Comfortaa", sans-serif;
+    --texto: "Raleway", sans-serif;
+}
