@@ -13,3 +13,47 @@
     --titulo:"Comfortaa", sans-serif;
     --texto: "Raleway", sans-serif;
 }
+body{
+    font-family: var(--Cineroso);
+    background-color: var(--Preto-verde);
+    color: var(--Siena-escura);
+    height: 100vh;
+}
+header{
+    background-color: var(--Feldgrau);
+    text-align: center;
+}
+h1{
+    font-family:var(--titulo) ;
+    font-size: 2rem;
+    padding: 1.2rem 0;
+    color: var(--Vermelho-cosmo);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Cineroso);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    color: var(--Cineroso);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Siena-escura);
+    color: var(--Preto-verde);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+}
