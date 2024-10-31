@@ -1,52 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --Vermelho-cosmo: #591419;
     --Feldgrau: #4A5951;
     --Preto-verde: #010D00;
     --Cineroso: #8C7974;
     --Siena-escura: #400F0F;
-    --titulo:"Comfortaa", sans-serif;
+    --titulo: "Comfortaa", sans-serif;
     --texto: "Raleway", sans-serif;
 }
-body{
+
+body {
     font-family: var(--Cineroso);
     background-color: var(--Preto-verde);
     color: var(--Siena-escura);
     height: 100vh;
 }
-header{
+
+header {
     background-color: var(--Feldgrau);
     text-align: center;
 }
-h1{
-    font-family:var(--titulo) ;
-    font-size: 2rem;
-    padding: 1.2rem 0;
+
+h1 {
+    font-family: var(--titulo);
+    font-size: 2em;
+    padding: 1.2em 0;
     color: var(--Vermelho-cosmo);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--Cineroso);
-    margin: 0 2rem 1rem 0;
-    font-size: 1.5rem;
+    margin: 0 2em 1em 0;
+    font-size: 1.5em;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: underline;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     color: var(--Cineroso);
     transition: 0.5s;
 }
-footer{
+
+.caixa-grafico{
+    margin: 3em;
+    border: 3px double var(--Siena-escura);
+    background-color: var(--Cineroso);
+}
+
+.caixa-grafico__texto{
+    padding:2em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
